@@ -1,0 +1,27 @@
+    <div class="title-block">
+        <div class="title">推荐标题</div>
+        <div class="angle"></div>
+    </div>
+    
+            .title-block {
+            display: inline-block;
+            position: relative;
+            background: #F3715D;
+            color: white;
+            text-align: center;
+            padding: 0px 20px;
+            height: 45px;
+            line-height: 45px;
+            letter-spacing: 2px;
+        }
+
+        .title-block .angle {
+            position: absolute;
+            right: -22px;
+            top: 0px;
+            height: 45px;
+            width: 45px;
+            background: #F3715D;
+            transform: skew(45deg,0deg);
+            z-index: -1;
+        }
